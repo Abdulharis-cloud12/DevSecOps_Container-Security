@@ -115,7 +115,7 @@ devsecops-container-security-pipeline/
 | Phase | Description | Status |
 |---------|-------------|:------:|
 | Phase 1 | Project Initialization | ✅ Completed |
-| Phase 2 | Dockerize Flask Application | ⏳ Pending |
+| Phase 2 | Dockerize Flask Application | ✅ Completed |
 | Phase 3 | Harden Docker Container | ⏳ Pending |
 | Phase 4 | Push Project to GitHub | ✅ Completed |
 | Phase 5 | GitHub Actions Workflow | ⏳ Pending |
