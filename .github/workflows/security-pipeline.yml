@@ -1,0 +1,21 @@
+name: CI Fundamentals
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display project files
+        run: ls -la
+
+      - name: Display application files
+        run: ls -la app
+
+      - name: Show pipeline message
+        run: echo "DevSecOps pipeline is running"
