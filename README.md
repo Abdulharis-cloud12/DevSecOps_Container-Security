@@ -118,7 +118,7 @@ devsecops-container-security-pipeline/
 | Phase 2 | Dockerize Flask Application | ✅ Completed |
 | Phase 3 | Harden Docker Container | ✅ Completed |
 | Phase 4 | Push Project to GitHub | ✅ Completed |
-| Phase 5 | GitHub Actions Workflow | ⏳ Pending |
+| Phase 5 | GitHub Actions Workflow | ✅ Completed |
 | Phase 6 | Secret Scanning with Gitleaks | ⏳ Pending |
 | Phase 7 | Vulnerability Scanning with Trivy | ⏳ Pending |
 | Phase 8 | Security Gates | ⏳ Pending |
