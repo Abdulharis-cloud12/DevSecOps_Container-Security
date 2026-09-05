@@ -1,10 +1,10 @@
-name: CI Fundamentals
+name: DevSecOps Security Pipeline
 
 on:
   push:
 
 jobs:
-  test:
+  security:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,5 +36,5 @@ jobs:
           severity: HIGH,CRITICAL
           exit-code: '1'
 
-      - name: Show pipeline message
-        run: echo "DevSecOps pipeline is running"
+      - name: Pipeline Success
+        run: echo "DevSecOps security pipeline completed successfully"
