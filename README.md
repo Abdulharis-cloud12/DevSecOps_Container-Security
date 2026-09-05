@@ -121,8 +121,8 @@ devsecops-container-security-pipeline/
 | Phase 5 | GitHub Actions Workflow | ✅ Completed |
 | Phase 6 | Secret Scanning with Gitleaks | ✅ Completed |
 | Phase 7 | Vulnerability Scanning with Trivy | ✅ Completed |
-| Phase 8 | Security Gates | ⏳ Pending |
-| Phase 9 | Pipeline Validation | ⏳ Pending |
+| Phase 8 | Security Gates | ✅ Completed |
+| Phase 9 | Pipeline Validation | ✅ Completed |
 
 ---
 
